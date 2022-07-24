@@ -34,7 +34,7 @@ public class LotteryController {
 
     @GetMapping
     public List<LotteryResponseDto> readAll(@RequestParam(required = false, defaultValue = "0") @Min(0) Integer page,
-                                            @RequestParam(required = false, defaultValue = "25") @Max(200) @Min(1) Integer size) {
+                                            @RequestParam(required = false, defaultValue = "10") @Max(200) @Min(1) Integer size) {
 
         List<Lottery> lotteries = lotteryService.readAll(page, size);
         return
