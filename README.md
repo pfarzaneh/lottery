@@ -10,3 +10,7 @@ we are not tracking payment functionality here.
 * we can add API documentation to project using Swagger
 * we can add exception handling and message translating
 * adding a log mechanism
+
+![Alt text](data-model.png?raw=true "Lottery Data Model")
+
+
