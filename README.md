@@ -58,12 +58,14 @@ This API is documented under
 3. Finishing a lottery >> _PATCH: /lottery/{id}/finish_
 
 [participant-controller](http://localhost:8080/swagger-ui.html#/participant-controller) contains:
+
 4. Registering a user for a lottery >> _POST: /participant/register_
 5. Read all active lotteries user registered for >> _GET: /participant/{ssn}/lotteries_
 6. Submit as many ballots as user buys >> _POST: /participant/{ssn}/submit_
 7. Read all ballots user submitted for a specific lottery >> _GET: /participant/{ssn}/lottery/{lotteryId}/ballots_
 
 [winner-controller](http://localhost:8080/swagger-ui.html#/winner-controller) contains:
+
 8. Read the detailed info of a winner for specific date >> _GET: /winner/of/{date}_
 
 
